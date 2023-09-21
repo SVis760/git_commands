@@ -57,7 +57,9 @@ git commit -m "Eerste commit"
 - [ ] Duw je lokale wijzigingen naar GitHub met het volgende commando:
 
 ```
+git remote add origin <repository_url>
 git push -u origin master
+
 ```
 
 
