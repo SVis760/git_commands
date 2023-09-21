@@ -13,3 +13,10 @@ clone a repo from github
 ```
 git clone https://github.com/username/repository.git
 ```
+
+
+show hidden directories by using:
+```sh
+ls -a
+```
+*a dash a flag
