@@ -1,6 +1,8 @@
 # Git & GitHub
 
 ### Git setup: Download Git.
+<https://git-scm.com/>
+
 ## Windows
 1. Ga naar de Git for [Windows website](https://gitforwindows.org/).
 2. Download het installatieprogramma en voer het uit.
@@ -32,7 +34,7 @@ git config --global user.email "jouw_email@example.com"
 
 ### Maak een GitHub account aan.
 
-
+<https://github.com/>
 
 
 Ga naar je working directory:
