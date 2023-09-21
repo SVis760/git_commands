@@ -7,3 +7,9 @@ git remote rename origin <new-name>
 git remote -v
 
 ```
+
+
+clone a repo from github
+```
+git clone https://github.com/username/repository.git
+```
