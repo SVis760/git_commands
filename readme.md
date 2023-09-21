@@ -58,13 +58,37 @@ git commit -m "Eerste commit"
 
 ```
 git remote add origin <repository_url>
-git push -u origin master
+git push -u origin master    # --set-upstream (or its shorthand -u)
 
 ```
 
---set-upstream (or its shorthand -u): This option is used to set up a tracking relationship between your local branch and the remote branch. It means that when you later run git pull or git push without specifying a remote branch and a local branch, Git will know which remote branch to fetch from or push to based on the tracking configuration. In this case, it's setting "master" to track "origin/master."
-origin: This is the name of the remote repository where you want to push your changes. "origin" is a common default name for the remote repository you cloned from, but it can be customized to a different name if needed.
 
-master: This is the name of the local branch you want to push to the remote repository. You can replace "master" with the name of any other local branch you want to push.
+## Pycharm
+### Setting up Git in Pycharm
+```{bash}
+click on VCS > Enable Version Control Integration
+Select Git > OK
+```
+ 
+ adding Github server
+```{Pycharm GUI}
+Git > GitHub > Share Project on GitHub
+"Share Project on GitHub"
+add your GitHub account details to PyCharm yet click on Add Account.
+click on Share.
+```
+ 
+ 
+ Pulling down remote changes from GitHub into your local copy of a project in Pycharm
+```{pycharm GUI}
+Git > Pull
+"Pull to Master" 
+Click "Pull" button.
+view log > Git > Show Git Log
+```
 
+## VScode
 
+```
+
+```
